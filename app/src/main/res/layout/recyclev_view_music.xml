@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_weight="8"
+        android:scrollbars="vertical"
+        android:id="@+id/rcv_music"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:background="#9bc1f1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/ic_music"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:id="@+id/txt_name"
+            android:paddingLeft="20dp"
+            android:text="Name's Song"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_previous"
+                android:background="@drawable/previous"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_margin="10dp"
+                android:background="@drawable/play"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:background="@drawable/next"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
