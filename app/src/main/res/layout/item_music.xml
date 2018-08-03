@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/background_item_music">
+
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txt_name_song"
+        android:textColor="#403d3d"
+        android:textSize="17dp"
+        android:text="Name's music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
